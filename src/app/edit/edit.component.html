@@ -1,0 +1,22 @@
+<h1>Edit your profile below...</h1>
+<form #profileForm="ngForm" (ngSubmit)="set(profileForm)">
+  <label for="name">name</label>
+  <input type="text" id="name" name="name" placeholder="name" ngModel />
+  <label for="contact">contact</label>
+  <input
+    type="text"
+    id="contact"
+    name="contact"
+    placeholder="enter your email"
+    ngModel
+  />
+  <label for="bio">bio</label>
+  <input
+    type="text"
+    name="bio"
+    id="bio"
+    placeholder="tell us something about yourself..."
+    ngModel
+  />
+  <button type="button" routerLink="/profile">add profile</button>
+</form>

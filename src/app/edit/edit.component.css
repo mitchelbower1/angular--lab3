@@ -1,0 +1,25 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  width: 40vw;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
